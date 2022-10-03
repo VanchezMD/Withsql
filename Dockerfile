@@ -1,19 +1,26 @@
-# Use root/example as user/password credentials
-version: '3.1'
+# base image
+FROM python:3.10
+# setup environment variable
+ENV DockerHOME=/home/app/webapp
 
-services:
+# set work directory
+RUN mkdir -p $DockerHOME
 
-  db:
-    image: mysql
-    # NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
-    # (this is just an example, not intended to be a production configuration)
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: admin123
+# where your code lives
+WORKDIR $DockerHOME
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+# install dependencies
+RUN pip install --upgrade pip
+
+# copy whole project to your docker home directory.
+COPY . $DockerHOME
+# run this command to install all dependencies
+RUN pip install -r requirements.txt
+# port where the Django app runs
+EXPOSE 8000
+# start server
+CMD python manage.py runserver

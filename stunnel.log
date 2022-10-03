@@ -434,3 +434,12 @@
 2022.09.30 14:48:50 LOG5[88]: Service [https] accepted connection from 127.0.0.1:60866
 2022.09.30 14:48:50 LOG3[88]: SSL_accept: ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
 2022.09.30 14:48:50 LOG5[88]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2022.09.30 16:31:07 LOG5[ui]: Reading configuration from file /home/starlab/Documents/withsql/stunnel/dev_https
+2022.09.30 16:31:07 LOG5[ui]: UTF-8 byte order mark not detected
+2022.09.30 16:31:07 LOG5[ui]: FIPS mode disabled
+2022.09.30 16:31:07 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2022.09.30 16:31:07 LOG5[ui]: Configuration successful
+2022.09.30 16:31:07 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2022.10.01 14:46:35 LOG5[ui]: Log file reopened
+2022.10.02 14:46:35 LOG5[ui]: Log file reopened
+2022.10.03 08:30:06 LOG5[ui]: Terminated
