@@ -1,22 +1,21 @@
-asgiref==3.5.2
-Babel==2.10.3
-cffi==1.15.1
-cryptography==38.0.1
-Django==4.1.1
-django-cors-headers==3.13.0
-django-environ==0.9.0
-django-extensions==3.2.1
-django-money==3.0.0
-django-sslserver==0.22
-djangorestframework==3.14.0
-MarkupSafe==2.1.1
-mysql==0.0.3
-mysqlclient==2.1.1
-py-moneyed==2.0
-pycparser==2.21
-pyOpenSSL==22.1.0
-pytz==2022.2.1
-sqlparse==0.4.2
-typing_extensions==4.3.0
-Werkzeug==2.2.2
-withsql==1
+asgiref @ file:///home/starlab/.cache/pypoetry/artifacts/22/46/4d/e9d170f76cad59b81e4568f6b37cce88f46df63c197e476a1020862182/asgiref-3.5.2-py3-none-any.whl
+Babel @ file:///home/starlab/.cache/pypoetry/artifacts/f6/24/80/756dbf261b341377796335dcd049514ad5e1d4542c5f52b74ede92d783/Babel-2.10.3-py3-none-any.whl
+cffi @ file:///home/starlab/.cache/pypoetry/artifacts/8f/03/c5/3cf9dd7e8f36733162538ee0346ef86f4ad0f08a663096e18a252718fb/cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+cryptography @ file:///home/starlab/.cache/pypoetry/artifacts/28/22/8a/461114d7fa6e878e7565b3c3d5fd1897ba2623d5c2f0933015e805c840/cryptography-38.0.1-cp36-abi3-manylinux_2_28_x86_64.whl
+Django @ file:///home/starlab/.cache/pypoetry/artifacts/c3/a8/b1/60118b5a70231e8d7a8ae46f99949a60e3e8250d73872a6415e6b2b67f/Django-4.1.1-py3-none-any.whl
+django-cors-headers @ file:///home/starlab/.cache/pypoetry/artifacts/7e/98/ea/ecd125cf6ff0f07014bedd92ce9dbed1e746ce824a15c6ea1d68d9adfc/django_cors_headers-3.13.0-py3-none-any.whl
+django-environ @ file:///home/starlab/.cache/pypoetry/artifacts/0a/a9/36/e95eca56807159f22244ccb29b35250fc0f0902ada2196428e9445c4e5/django_environ-0.9.0-py2.py3-none-any.whl
+django-extensions @ file:///home/starlab/.cache/pypoetry/artifacts/d1/a7/d0/5b5b5ea61a6539037a38dfbb078b0ea4324c67835a5d35b8954dba068c/django_extensions-3.2.1-py3-none-any.whl
+django-money @ file:///home/starlab/.cache/pypoetry/artifacts/99/2b/6d/3fb66c38e7a36556e37fbceb56d9ea26522c58acc2f123b1039e47b9da/django_money-3.0.0-py3-none-any.whl
+django-sslserver @ file:///home/starlab/.cache/pypoetry/artifacts/3a/de/3e/95bf8387e1bf6f5d0036b78795b109bb576dfd79be6c029f47b8ec18f0/django_sslserver-0.22-py3-none-any.whl
+djangorestframework @ file:///home/starlab/.cache/pypoetry/artifacts/20/30/7a/84b42d5bd530132e945ba03b8508b6877743ff6b6ad8ea00ba2ef2b89c/djangorestframework-3.14.0-py3-none-any.whl
+MarkupSafe @ file:///home/starlab/.cache/pypoetry/artifacts/dd/cc/d7/91f68383c04a15a87f0a2b31599de891c89b1d15e309273f759daf132c/MarkupSafe-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+mysql @ file:///home/starlab/.cache/pypoetry/artifacts/e6/66/57/3e82ca7f924a036ffb74e396822ed1b9152d78e98989d7ec11759ed47f/mysql-0.0.3-py3-none-any.whl
+mysqlclient @ file:///home/starlab/.cache/pypoetry/artifacts/af/19/9f/f71f7f0d313981e3dce1608dc021f6f4a338dd61aa21f8e1bbeb8a1deb/mysqlclient-2.1.1.tar.gz
+py-moneyed @ file:///home/starlab/.cache/pypoetry/artifacts/7e/98/e8/9231c8a8b1516b9286f1318897cf12ea89fbcee966a66f0670b0153a0f/py_moneyed-2.0-py3-none-any.whl
+pycparser @ file:///home/starlab/.cache/pypoetry/artifacts/08/b1/1b/4618699096207aa9eba9fa35118b2b6544fd1c9c2a79ea3601a3d325a0/pycparser-2.21-py2.py3-none-any.whl
+pyOpenSSL @ file:///home/starlab/.cache/pypoetry/artifacts/30/d5/cc/ec76ba61b0c781e9962d6bc33881b652731aade92cf8eccab1f432f6ed/pyOpenSSL-22.1.0-py3-none-any.whl
+pytz @ file:///home/starlab/.cache/pypoetry/artifacts/76/42/b1/88c2067854f830dcc9545a478eca812294780604326605c08089b44a5d/pytz-2022.2.1-py2.py3-none-any.whl
+sqlparse @ file:///home/starlab/.cache/pypoetry/artifacts/10/f5/22/c9c991a71e27c4d8f69907d92cce74a369cbb3183dc4a6d27e2ae4ab0b/sqlparse-0.4.2-py3-none-any.whl
+typing_extensions @ file:///home/starlab/.cache/pypoetry/artifacts/4a/aa/fe/e4680f3423fbdb5ac89a6fb2f83d9e7ff7fb48173b0fa1604786182558/typing_extensions-4.3.0-py3-none-any.whl
+Werkzeug @ file:///home/starlab/.cache/pypoetry/artifacts/28/6a/82/10f659db5fd9fd23f295caf59cb7e0b81881c95f138922806109110343/Werkzeug-2.2.2-py3-none-any.whl
