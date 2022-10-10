@@ -18,3 +18,4 @@ pip-delete-this-directory.txt
 *.pyc
 db.sqlite3
 media
+apt
