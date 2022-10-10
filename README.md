@@ -1,4 +1,4 @@
-# products-backend
+# PRODUCTS - BACKEND
 
 # Getting Started
 
