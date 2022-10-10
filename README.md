@@ -29,10 +29,21 @@ You can now run the development server:
 #Installation 
 The installer script is available directly at install.python-poetry.org, and is developed in its own repository. The script can be executed directly (i.e. ‘curl python’) or downloaded and then executed from disk (e.g. in a CI environment).
 Linux, macOS, Windows (WSL)
-curl -sSL https://install.python-poetry.org | python3 -
-Windows (Powershell)
-(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
-#Activating the virtual environment 
-The easiest way to activate the virtual environment is to create a nested shell with $poetry shell.
 
-To deactivate the virtual environment and exit this new shell type $exit. To deactivate the virtual environment without leaving the shell use $deactivate.
+	#curl -sSL https://install.python-poetry.org | python3 -
+	
+Windows (Powershell)
+
+	#(Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | py -
+
+#Activating the virtual environment 
+The easiest way to activate the virtual environment is to create a nested shell with 	
+	
+	#$poetry shell.
+
+To deactivate the virtual environment and exit this new shell type 
+	
+	$exit. 
+To deactivate the virtual environment without leaving the shell use 	
+	
+	$deactivate.
