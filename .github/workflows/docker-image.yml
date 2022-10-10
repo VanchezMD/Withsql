@@ -32,7 +32,7 @@ jobs:
         uses: docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38
         with:
           images: |
-            vanchez98/django_with_sql
+            ${{ secrets.DOCKER_USER }}/sqlproject
             ghcr.io/${{ github.repository }}
       
       - name: Build and push Docker images
@@ -41,4 +41,4 @@ jobs:
           context: .
           push: true
           tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}]
+          labels: ${{ steps.meta.outputs.labels }}
