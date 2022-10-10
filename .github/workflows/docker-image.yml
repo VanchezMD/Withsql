@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag :$(date +%s)
+      run: docker build . --file Dockerfile --tag vanchez98/django_with_sql:$(date +%s)
       
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/sqlproject
+      run: docker push ${{secrets.DOCKER_USER}}/django_with_sql
