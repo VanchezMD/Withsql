@@ -47,3 +47,12 @@ To deactivate the virtual environment and exit this new shell type
 To deactivate the virtual environment without leaving the shell use 	
 	
 	$deactivate.
+	
+#MYSQL 
+MySQL is a widely used, open-source relational database management system (RDBMS).
+
+	docker pull mysql
+
+Start a mysql server instance
+
+	$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
