@@ -30,17 +30,26 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 # f4de-87-248-160-14.eu.ngrok.io', '127.0.0.1', '192.168.84.50', '192.168.84.179', '0.0.0.0',
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*',]
 
+# CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = ['http://localhost']
+# # Application definition
+# CORS_ALLOW_CREDENTIALS = False
+# CORS_ALLOWED_ORIGINS_ALL = [
+#     'http://192.168.84.179:4200',
+#     'http://localhost:8080'
+# ]
+# CORS_ALLOW_METHODS = [
+#     "DELETE",
+#     "GET",
+#     "OPTIONS",
+#     "PATCH",
+#     "POST",
+#     "PUT",
+# ]
 CORS_ORIGIN_ALLOW_ALL = True
 
-# Application definition
-#
-# CORS_ORIGIN_WHITELIST = (
-#     "https://127.0.0.1:8000",
-#     "https://localhost:8000",
-#     "http://192.168.84.179:4200",
-# )
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -53,9 +62,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'sales',
     'djmoney',
-    "django_extensions",
-    "sslserver",
-    "django-environ"
 ]
 
 MIDDLEWARE = [
@@ -70,18 +76,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ]
 
-# CORS_ALLOWED_ORIGINS_ALL = [
-#     'http://192.168.84.179:4200',
-#     'http://localhost:4200'
-# ]
-# CORS_ALLOW_METHODS = [
-#     "DELETE",
-#     "GET",
-#     "OPTIONS",
-#     "PATCH",
-#     "POST",
-#     "PUT",
-# ]
 
 ROOT_URLCONF = 'withsql.urls'
 

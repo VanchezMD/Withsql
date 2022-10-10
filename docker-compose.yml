@@ -1,17 +1,23 @@
 version: '3'
 
 services:
+  frontend:
+    image: ioncazacu/sqlproject:latest
+    container_name: internship_web
+    ports:
+      - 8080:8080
+
   backend:
-    image: vanchez98/django_with_sql:latest
+    image: django_with_sql:latest
     container_name: internship-backend
     ports:
       - 8000:8000
     environment:
-      - DATABASE_HOST=internship-db
+      - DATABASE_HOST=internshipDB
       - DATABASE_PORT=3306
       - DATABASE_NAME=internshipDB
       - DATABASE_USER=root
-      - DATABASE_PASSWORD=SecretPassword
+      - DATABASE_PASSWORD=admin123
 
 networks:
   default:
